@@ -1,3 +1,3 @@
-# A025 - Templates
+# Responsividade - Template da Prática
 
 Templates para os exercícios de hoje!
