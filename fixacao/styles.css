@@ -46,3 +46,19 @@
     padding: 20px;
     width: 100%;
   }
+
+/* CELULAR */
+@media screen and (max-device-width: 480px) {
+  header {
+    position: sticky;
+  }
+  main {
+    height: 100vh;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  footer {
+    position: static;
+    bottom: 0;
+  }
+}

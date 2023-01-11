@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+section {
+    border: 1px solid black;
+    font-size: 4rem;
+}
+
+/* TABLET */
+@media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    main {
+        background-color: aqua;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    section {
+        font-size: 2rem;
+    }
+}
+
+/* CELULAR */
+@media screen and (max-device-width: 480px) {
+    main {
+        background-color: red;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    section {
+        font-size: 1rem;
+    }
+}
